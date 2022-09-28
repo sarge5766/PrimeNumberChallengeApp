@@ -2,7 +2,9 @@
 
 This challenge comes from the iamtimcorey course (link below), the prove it series, the Prime Number Challenge.
 
-## GOACreate a console app that can identify if a given number is a prime number (a number that cannot be divided by anything but 1 and itself). Don't depend on Console.WriteLine.
+## GOAL
+
+Create a console app that can identify if a given number is a prime number (a number that cannot be divided by anything but 1 and itself). Don't depend on Console.WriteLine.
 
 ## BONUS
 
