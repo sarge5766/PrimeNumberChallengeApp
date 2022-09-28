@@ -10,3 +10,9 @@ Create a console app that can identify if a given number is a prime number (a nu
 
 Get all the factors of a given number (besides 1 and itself). Also, get a list of all prime factors for a given number. When a number is given, print out how many unique factors go into it, the list of unique prime factors, and what the largest prime factor is.
 
+## CREDIT
+
+This was taken from the iamtimcorey prove it course.
+https://www.iamtimcorey.com/
+
+Check out my blog post for this Prove it series - [Prime Number Challenge](https://a-dev-blog.com/2022/09/28/prove-it-series-prime-number-challenge/)
