@@ -21,15 +21,15 @@ public class Program {
                     if(factors.Count > 0) {
                         DisplayMessage($"The largest prime factor is {factors.Max()}");
                         DisplayMessage($"Factors of {numToCheck} are: ");
-                        int i = 0;
+                        int counter = 0;
                         foreach (var item in factors) {
-                            if (i < (factors.Count - 1)) {
+                            if (counter < (factors.Count - 1)) {
                                 Console.Write($"{item}, ");
                             } else {
                                 Console.Write($"{item}");
                             }
 
-                            i++;
+                            counter++;
                         }
                     }
                 }
@@ -72,17 +72,18 @@ public class Program {
     }
 
     static bool IsPrime(int num) {
-        bool isPrime = true;
-        int max = num / 2;
+        bool isPrime = true; // return variable, default to true
+        int max = num / 2; // we only need to check half of the number
 
-        // 24
+        // 24 is a composite number
         // 24 / 2 = 12
         // max == 12
+        // all numbers to check
         // 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
         // prime numbers of 24
         // 2, 3, 4, 6, 8, 12
 
-        // starting iterator at 2 because 1 is not considered a prime number
+        // starting iterator at 2 because 1 is not a prime number
         for (int i = 2; i < max; i++) {
             if (num % i == 0) {
                 isPrime = false;
